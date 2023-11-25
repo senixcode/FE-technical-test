@@ -4,6 +4,7 @@
 - ✅ Color Palette 
 - ✅ Authenticate flow  
 - ✅ Employee List (limiting to 6)
+- ❌ not responsive
 - ❌ Employee pagination 
 - ❌ Employee loading screen
 
