@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Manrope Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/font/Manrope/Manrope-Regular.ttf") format("opentype");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Manrope Medium";
+    font-style: normal;
+    font-weight: 500;
+    src: url("/font/Manrope/Manrope-Medium.ttf") format("opentype");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Manrope Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/font/Manrope/Manrope-Bold.ttf") format("opentype");
+    font-display: swap;
+  }
+
+  :root{
+    --color-greyscale-900: #111827;
+    --color-greyscale-500: #A0AEC0;
+    --color-primary-base: #27A376;
+    --color-primary-green-300: #00A19B;
+    --color-alerts-success-base: #0CAF60;
+    --color-alerts-error-base: #E03137;
+    --color-greyscale-50: #FAFAFA;
+    --color-greyscale-100: #F8F8F8;
+    --color-greyscale-200: #F1F2F4;
+    --color-greyscale-300: #E9EAEC;
+    --color-greyscale-600: #687588;
+    --color-other-blue: #2F78EE;
+  }
+}
