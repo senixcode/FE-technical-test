@@ -8,6 +8,8 @@
 - ❌ Employee pagination 
 - ❌ Employee loading screen
 
+> [DEMO](https://fe-technical-test-kre9-jp9b2st6y-senixcode.vercel.app/) 👈
+
 ## Dependencies used
 
 - Vite + Vue + TypeScript
