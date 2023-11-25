@@ -4,7 +4,7 @@ import { GlobalConstants } from "../../constants/global.contants";
 import LocalStorageUser from "./localStorageUser";
 
 class Auth {
-    #domain;
+    #domain
     constructor() {
         this.#domain = GlobalConstants.DOMAIN_API
     }
