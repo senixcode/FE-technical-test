@@ -10,4 +10,4 @@ const isAuthenticated = new LocalStorageUser().getToken()
         <h2 class="font-manropeBold text-9xl text-greyscale-500">404</h2>
         <RouterLink v-if="isAuthenticated" :to="RoutesNames.Dashboard" class="text-center font-manropeMedium text-lg underline text-greyscale-900"> Regresa al Home</RouterLink>
     </div>
-</template>../http/auth/LocalStorageUser../http/auth/localStorageUser
+</template>
