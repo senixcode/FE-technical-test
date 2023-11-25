@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { RoutesNames } from './enum'
-import LocalStorageUser from '../http/auth/LocalStorageUser'
+import LocalStorageUser from '../http/auth/localStorageUser'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

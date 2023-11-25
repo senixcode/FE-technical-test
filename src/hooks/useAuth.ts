@@ -1,5 +1,5 @@
 import { useRouter } from "vue-router"
-import LocalStorageUser from "../http/auth/LocalStorageUser"
+import LocalStorageUser from "../http/auth/localStorageUser"
 import { RoutesNames } from "../router/enum"
 
 export const useAuth = () => {

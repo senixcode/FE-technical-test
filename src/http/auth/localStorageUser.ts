@@ -1,6 +1,6 @@
 import { UserResponse } from "./type"
 
-class LocalStorageUser{
+class LocalStorageUser {
     #user = "user"
     #token = "token"
     constructor(){}

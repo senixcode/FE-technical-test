@@ -1,7 +1,7 @@
 import axios from "axios";
 import { SigInResponse, User } from "./type";
 import { GlobalConstants } from "../../constants/global.contants";
-import LocalStorageUser from "./LocalStorageUser";
+import LocalStorageUser from "./localStorageUser";
 
 class Auth {
     #domain;

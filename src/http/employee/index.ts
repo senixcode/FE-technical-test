@@ -1,6 +1,6 @@
 import axios from "axios";
 import { GlobalConstants } from "../../constants/global.contants";
-import LocalStorageUser from "../auth/LocalStorageUser";
+import LocalStorageUser from "../auth/localStorageUser";
 import { EmployeeResponse } from "./type";
 
 class Employee {
